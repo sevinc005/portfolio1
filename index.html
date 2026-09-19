@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevinc Əliyeva — Frontend Developer</title>
+    <meta name="description" content="Sevinc Əliyeva — Frontend Developer. Müasir veb texnologiyalarla yaradıcı həllər.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Sevinc<span class="logo-dot">.</span>dev<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Ana Səhifə</a></li>
+                <li><a href="#about" class="nav-link">Haqqımda</a></li>
+                <li><a href="#skills" class="nav-link">Bacarıqlar</a></li>
+                <li><a href="#projects" class="nav-link">Layihələr</a></li>
+                <li><a href="#contact" class="nav-link">Əlaqə</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Tema dəyiş">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menyu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting animate-on-scroll">Salam, mən</p>
+                <h1 class="hero-name animate-on-scroll">Sevinc <span class="highlight">Əliyeva</span></h1>
+                <div class="hero-title-wrapper animate-on-scroll">
+                    <span class="hero-title-prefix">Mən</span>
+                    <span class="hero-title" id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description animate-on-scroll">
+                    Müasir veb texnologiyalarla yaradıcı, responsiv və istifadəçi dostu veb tətbiqlər yaradıram.
+                </p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> Layihələrim
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Əlaqə
+                    </a>
+                </div>
+                <div class="hero-socials animate-on-scroll">
+                    <a href="https://github.com/sevinc005" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sevinc-aliyeva-3737863b9" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:aliyevasevinj05@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual animate-on-scroll">
+                <div class="hero-image-wrapper">
+                    <div class="hero-avatar">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="orbit orbit-1">
+                        <div class="orbit-icon"><i class="fab fa-html5"></i></div>
+                    </div>
+                    <div class="orbit orbit-2">
+                        <div class="orbit-icon"><i class="fab fa-css3-alt"></i></div>
+                    </div>
+                    <div class="orbit orbit-3">
+                        <div class="orbit-icon"><i class="fab fa-js-square"></i></div>
+                    </div>
+                    <div class="orbit orbit-4">
+                        <div class="orbit-icon"><i class="fab fa-react"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Aşağı keç">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Aşağı sürüşdür</span>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-number">01.</span> Haqqımda
+            </h2>
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <div class="about-img-wrapper">
+                        <div class="about-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="about-img-border"></div>
+                    </div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <p>
+                        Salam! Mən <strong>Sevinc Əliyeva</strong> — həvəsli bir <strong>Frontend Developer</strong>-əm.
+                        Müasir veb texnologiyaları ilə istifadəçi dostu, gözəl və funksional veb interfeyslər yaratmağı sevirəm.
+                    </p>
+                    <p>
+                        Mənim əsas məqsədim kodla dizayn arasında mükəmməl balans yaratmaqdır. Hər bir layihədə
+                        detallara diqqət yetirərək, responsiv və əlçatan veb həllər təqdim edirəm.
+                    </p>
+                    <p>
+                        Yeni texnologiyaları öyrənməyə və inkişaf etməyə həmişə açığam.
+                        Komanda işinə dəyər verirəm və birgə layihələrdə iştirak etməkdən həzz alıram.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10">0</span>+
+                            <span class="stat-label">Layihə</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">0</span>+
+                            <span class="stat-label">Texnologiya</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span>%
+                            <span class="stat-label">Həvəs</span>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Mesaj Göndər
+                        </a>
+                        <a href="cv.pdf" download class="btn btn-outline">
+                            <i class="fas fa-download"></i> CV Yüklə
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-number">02.</span> Bacarıqlar
+            </h2>
+            <div class="skills-grid">
+                <!-- Frontend & Alətlər -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend & Alətlər</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                                <span>HTML5, CSS3, JavaScript</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-react" style="color: #61dafb;"></i>
+                                <span>React.js, React Router DOM</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-bolt" style="color: #e34f26;"></i>
+                                <span>TanStack Query, Vite</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-server" style="color: #1572b6;"></i>
+                                <span>Axios, JS-Cookie</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-github" style="color: #f05032;"></i>
+                                <span>GitHub / Version Control</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proqramlaşdırma & Data -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Proqramlaşdırma & Data</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-python" style="color: #3776ab;"></i>
+                                <span>Python, C++</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-chart-bar" style="color: #4fc08d;"></i>
+                                <span>NumPy, Pandas</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-filter" style="color: #0077c8;"></i>
+                                <span>DataFrame, Series, GroupBy</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-file-word" style="color: #2b579a;"></i>
+                                <span>MS Office (Word, PowerPoint)</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-number">03.</span> Layihələr
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/sevinc005/blush-and-bloom-e-commerce" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Blush & Bloom E-Commerce</h3>
+                        <p>Müasir dizaynlı onlayn mağaza tətbiqi. Məhsul kataloqu və interaktiv istifadəçi interfeysi.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/sevinc005/Simple-CI-CD-Pipeline-Simulation" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple CI/CD Pipeline Simulation</h3>
+                        <p>Davamlı inteqrasiya və çatdırılma proseslərinin simulyasiyası. Avtomatlaşdırılmış iş axınları.</p>
+                        <div class="project-tech">
+                            <span>CI/CD</span>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/sevinc005/Custom-Keyboard-Navigation-for-Complex-UI" target="_blank" class="project-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Custom Keyboard Navigation</h3>
+                        <p>Mürəkkəb istifadəçi interfeysləri üçün fərdi klaviatura naviqasiyası. Əlçatanlığın (Accessibility) artırılması.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>UI/UX</span>
+                            <span>Accessibility</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">
+                <span class="title-number">04.</span> Əlaqə
+            </h2>
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Gəlin əlaqə saxlayaq!</h3>
+                    <p>
+                        Yeni layihələr, əməkdaşlıq təklifləri və ya sadəcə salam demək üçün 
+                        mənimlə əlaqə saxlaya bilərsiniz. Mesajınıza ən qısa zamanda cavab verəcəyəm.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:aliyevasevinj05@gmail.com">aliyevasevinj05@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/sevinc-aliyeva-3737863b9" target="_blank">Sevinc Əliyeva</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/sevinc005" target="_blank">sevinc005</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form animate-on-scroll" id="contact-form" action="https://formspree.io/f/mjyvrwkn" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ad Soyad</label>
+                        <input type="text" id="name" name="name" placeholder="Adınızı daxil edin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email adresinizi daxil edin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Mövzu</label>
+                        <input type="text" id="subject" name="subject" placeholder="Mesajın mövzusu">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Mesajınızı yazın..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Göndər
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Sevinc<span class="logo-dot">.</span>dev<span class="logo-bracket">/&gt;</span>
+                </a>
+                <div class="footer-links">
+                    <a href="#about">Haqqımda</a>
+                    <a href="#skills">Bacarıqlar</a>
+                    <a href="#projects">Layihələr</a>
+                    <a href="#contact">Əlaqə</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/sevinc005" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sevinc-aliyeva-3737863b9" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:aliyevasevinj05@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sevinc Əliyeva. Bütün hüquqlar qorunur.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Yuxarı qayıt">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
