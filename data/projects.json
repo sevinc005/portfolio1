@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Blush & Bloom E-Commerce",
+    "description": "Müasir dizaynlı onlayn mağaza tətbiqi. Məhsul kataloqu və interaktiv istifadəçi interfeysi.",
+    "icon": "fas fa-shopping-bag",
+    "github": "https://github.com/sevinc005/blush-and-bloom-e-commerce",
+    "tech": ["HTML5", "CSS3", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "Simple CI/CD Pipeline Simulation",
+    "description": "Davamlı inteqrasiya və çatdırılma proseslərinin simulyasiyası. Avtomatlaşdırılmış iş axınları.",
+    "icon": "fas fa-server",
+    "github": "https://github.com/sevinc005/Simple-CI-CD-Pipeline-Simulation",
+    "tech": ["CI/CD", "Automation"]
+  },
+  {
+    "id": 3,
+    "title": "Custom Keyboard Navigation",
+    "description": "Mürəkkəb istifadəçi interfeysləri üçün fərdi klaviatura naviqasiyası. Əlçatanlığın (Accessibility) artırılması.",
+    "icon": "fas fa-keyboard",
+    "github": "https://github.com/sevinc005/Custom-Keyboard-Navigation-for-Complex-UI",
+    "tech": ["JavaScript", "UI/UX", "Accessibility"]
+  }
+  
+]
